@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface FIAppDelegate : UIResponder <UIApplicationDelegate>
+{
 
+    UIImage *_gbBlendImage;
+
+}
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) UIImage *gbReturnImage;
+@property (strong, nonatomic) UIImage *gbBlendImage;
 @end

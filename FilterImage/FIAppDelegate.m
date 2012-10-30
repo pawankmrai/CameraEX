@@ -9,6 +9,8 @@
 #import "FIAppDelegate.h"
 
 @implementation FIAppDelegate
+@synthesize gbReturnImage=_gbReturnImage;
+@synthesize gbBlendImage=_gbBlendImage;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
